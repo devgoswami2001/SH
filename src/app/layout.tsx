@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
@@ -42,12 +43,13 @@ const threeJsBackgroundScript = `
 
     // Create a torus geometry
     const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff88, wireframe: true });
+    // Updated color to match theme accent color #29E2D2
+    const material = new THREE.MeshBasicMaterial({ color: 0x29E2D2, wireframe: true });
     const torus = new THREE.Mesh(geometry, material);
     scene.add(torus);
 
     // Add ambient light for a soft glow
-    const ambientLight = new THREE.AmbientLight(0x404040);
+    const ambientLight = new THREE.AmbientLight(0x404040); // Kept ambient light neutral
     scene.add(ambientLight);
 
     // Position the camera
