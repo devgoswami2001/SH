@@ -110,6 +110,7 @@
 
 @layer utilities {
   /* Removed animate-gradient-xy as it's no longer used */
+  .bg-transparent {
+    background-color: hsl(var(--background)); /* Overriding Tailwind's bg-transparent */
+  }
 }
-
-/* Removed @keyframes gradient-xy as it's no longer used */
