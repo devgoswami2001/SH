@@ -1,4 +1,3 @@
-
 'use client';
 
 import Image from 'next/image';
@@ -53,8 +52,7 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-      {/* styled-jsx is removed as per previous fix for client component error.
-          Background animation is now global via globals.css */}
+      {/* The page background is currently rendered by a Three.js script in src/app/layout.tsx */}
     </section>
   );
 }
