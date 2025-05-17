@@ -5,13 +5,13 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const testimonials = [
   {
-    quote: "SwipeHired made my job search so much more engaging and efficient. The AI suggestions were spot on!",
+    quote: "HyreSence made my job search so much more engaging and efficient. The AI suggestions were spot on!",
     name: "Sarah L.",
     role: "Software Engineer",
     avatar: "https://placehold.co/80x80.png?text=SL"
   },
   {
-    quote: "As an HR manager, finding the right talent used to be a chore. SwipeHired's AI candidate ranking is a game-changer for us.",
+    quote: "As an HR manager, finding the right talent used to be a chore. HyreSence's AI candidate ranking is a game-changer for us.",
     name: "John B.",
     role: "HR Manager, Tech Solutions Inc.",
     avatar: "https://placehold.co/80x80.png?text=JB"

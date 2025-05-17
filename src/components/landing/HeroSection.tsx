@@ -7,14 +7,14 @@ import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   return (
-    <section className="relative pt-20 pb-12 md:pt-32 md:pb-20 bg-gradient-to-b from-background to-sky-100 dark:from-slate-900 dark:to-slate-800">
+    <section className="relative pt-20 pb-12 md:pt-32 md:pb-20">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="block">Revolutionize How You</span>
           <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mt-2">Find and Hire Talent</span>
         </h1>
         <p className="mt-6 max-w-md mx-auto text-lg text-muted-foreground sm:text-xl md:mt-8 md:max-w-3xl">
-          AI-powered job matching with a swipe. SwipeHired connects top talent with innovative companies, faster and smarter.
+          AI-powered job matching. HyreSence connects top talent with innovative companies, faster and smarter.
         </p>
         <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <Button size="lg" className="w-full sm:w-auto group">
@@ -32,7 +32,7 @@ export function HeroSection() {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-accent rounded-3xl blur-md opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <Image
               src="https://placehold.co/280x580.png"
-              alt="SwipeHired App on Phone"
+              alt="HyreSence App on Phone"
               width={280}
               height={580}
               data-ai-hint="phone app"
@@ -44,7 +44,7 @@ export function HeroSection() {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-accent to-primary rounded-xl blur-md opacity-50 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt-opposite"></div>
             <Image
               src="https://placehold.co/500x350.png"
-              alt="SwipeHired Dashboard"
+              alt="HyreSence Dashboard"
               width={500}
               height={350}
               data-ai-hint="dashboard analytics"
@@ -53,26 +53,8 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-      <style jsx global>{`
-        .animate-tilt {
-          animation: tilt 10s infinite linear;
-        }
-        .animate-tilt-opposite {
-          animation: tilt-opposite 10s infinite linear;
-        }
-        @keyframes tilt {
-          0%, 100% { transform: rotate(0deg); }
-          25% { transform: rotate(0.5deg); }
-          50% { transform: rotate(0deg); }
-          75% { transform: rotate(-0.5deg); }
-        }
-         @keyframes tilt-opposite {
-          0%, 100% { transform: rotate(0deg); }
-          25% { transform: rotate(-0.3deg); }
-          50% { transform: rotate(0deg); }
-          75% { transform: rotate(0.3deg); }
-        }
-      `}</style>
+      {/* styled-jsx is removed as per previous fix for client component error.
+          Background animation is now global via globals.css */}
     </section>
   );
 }

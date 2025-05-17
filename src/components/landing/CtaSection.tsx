@@ -11,7 +11,7 @@ export function CtaSection() {
           Ready to Make Smarter Career Moves?
         </h2>
         <p className="mt-4 text-lg opacity-90">
-          Join SwipeHired today and experience the future of job searching and talent acquisition.
+          Join HyreSence today and experience the future of job searching and talent acquisition.
         </p>
         <form className="mt-10 max-w-md mx-auto sm:flex sm:gap-4">
           <label htmlFor="email-address" className="sr-only">

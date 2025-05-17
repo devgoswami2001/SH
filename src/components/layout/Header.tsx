@@ -25,7 +25,7 @@ export function Header() {
       <div className="container flex h-16 max-w-7xl items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Briefcase className="h-7 w-7 text-primary" />
-          <span className="text-2xl font-bold text-foreground">SwipeHired</span>
+          <span className="text-2xl font-bold text-foreground">HyreSence</span>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -58,7 +58,7 @@ export function Header() {
                 <div className="flex items-center justify-start p-4 border-b">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
                     <Briefcase className="h-6 w-6 text-primary" />
-                    <span className="text-xl font-bold">SwipeHired</span>
+                    <span className="text-xl font-bold">HyreSence</span>
                   </Link>
                 </div>
                 <nav className="flex flex-col gap-4 p-4 mt-4">

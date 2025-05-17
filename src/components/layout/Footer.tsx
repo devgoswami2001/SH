@@ -12,10 +12,10 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
                <Briefcase className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold text-foreground">SwipeHired</span>
+              <span className="text-2xl font-bold text-foreground">HyreSence</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Revolutionizing how you find and hire talent with AI-powered job matching and a swipe.
+              Revolutionizing how you find and hire talent with AI-powered job matching.
             </p>
           </div>
           
@@ -49,7 +49,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border/60 pt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm text-muted-foreground md:order-1">
-            &copy; {currentYear} SwipeHired. All rights reserved.
+            &copy; {currentYear} HyreSence. All rights reserved.
           </p>
           <div className="flex space-x-6 md:order-2 mt-4 md:mt-0">
             <Link href="#" className="text-muted-foreground hover:text-foreground">

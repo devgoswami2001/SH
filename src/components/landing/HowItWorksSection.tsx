@@ -9,8 +9,8 @@ const steps = [
   },
   {
     icon: <Copy className="h-10 w-10 text-primary" />,
-    title: "Swipe & Match",
-    description: "Job seekers swipe on opportunities. Employers review AI-matched candidates."
+    title: "AI Matching", // Updated from "Swipe & Match"
+    description: "Job seekers discover AI-matched opportunities. Employers review AI-matched candidates." // Updated
   },
   {
     icon: <BarChartBig className="h-10 w-10 text-primary" />,
@@ -31,7 +31,7 @@ export function HowItWorksSection() {
         <div className="text-center mb-16">
           <h2 className="text-base font-semibold text-primary tracking-wide uppercase">Simple & Effective</h2>
           <p className="mt-2 text-3xl lg:text-4xl font-extrabold text-foreground tracking-tight">
-            How SwipeHired Works
+            How HyreSence Works
           </p>
         </div>
         <div className="relative">

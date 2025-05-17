@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'SwipeHired - Revolutionize Your Job Search',
-  description: 'AI-powered job matching with a swipe. Find talent and get hired faster with SwipeHired.',
+  title: 'HyreSence - Revolutionize Your Job Search',
+  description: 'AI-powered job matching. Find talent and get hired faster with HyreSence.',
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-gradient-to-br from-sky-100 via-indigo-50 to-purple-100 dark:from-slate-900 dark:via-slate-800 dark:to-indigo-900 animate-gradient-xy`}>
         <Header />
         <main className="flex-grow">
           {children}
