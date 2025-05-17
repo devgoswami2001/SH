@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="bg-secondary/50 border-t border-border/40">
-      <div className="container max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
+      <div className="container py-12 px-4 sm:px-6 lg:px-8"> {/* Changed max-w-7xl to container */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
