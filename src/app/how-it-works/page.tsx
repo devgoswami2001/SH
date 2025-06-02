@@ -30,7 +30,7 @@ const steps = [
 
 export default function HowItWorksPage() {
   return (
-    <div className="bg-background text-foreground py-12 sm:py-16">
+    <div className="text-foreground py-12 sm:py-16"> {/* Ensure bg-background is removed here */}
       {/* Hero Section */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-primary/10 to-transparent">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
