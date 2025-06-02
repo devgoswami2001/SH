@@ -11,8 +11,8 @@ const navItems = [
   { label: 'Features', href: '#features' },
   { label: 'Job Seekers', href: '#job-seekers' },
   { label: 'Employers', href: '#employers' },
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Investor Relations', href: '/investors' }, // Changed from Testimonials and href
+  { label: 'How It Works', href: '/how-it-works' }, // Updated href
+  { label: 'Investor Relations', href: '/investors' }, 
   // { label: 'Pricing', href: '/pricing' }, // Example for future pages
   // { label: 'Blog', href: '/blog' },
 ];
